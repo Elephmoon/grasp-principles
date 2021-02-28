@@ -6,7 +6,7 @@
 3. [Information expert](#information-expert)
 4. [Creator](#creator)
 5. [Controller](#controller)
-6. Polymorphism
+6. [Polymorphism](#polymorphism)
 7. Pure fabrication
 8. Indirection
 9. Protected variations
@@ -46,4 +46,10 @@
 Защита от событий, конкурентности, ассинхронности и параллельности.
 #### Пример
 Фасад, изоляция слоев
+
+### <a name="polymorphism"></a> Polymorphism [^](#list)
+#### Проблема 
+Как поступать в ситуации когда от типа зависит поведение?
+#### Решение
+Заменяем if на полиморфизм и наследование, обращаемся через интерфейс.
 
