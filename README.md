@@ -8,7 +8,7 @@
 5. [Controller](#controller)
 6. [Polymorphism](#polymorphism)
 7. Pure fabrication
-8. Indirection
+8. [Indirection](#indirection)
 9. Protected variations
 
 ### <a name="information-expert"></a> Information expert [^](#list)
@@ -52,4 +52,12 @@
 Как поступать в ситуации когда от типа зависит поведение?
 #### Решение
 Заменяем if на полиморфизм и наследование, обращаемся через интерфейс.
+
+### <a name="indirection"></a> Indirection [^](#list)
+#### Проблема 
+Снизить зацепление между абстракциям.
+#### Зачем
+Снижает зацепление, улучшает переиспользование.
+#### Пример
+Медиатор, в MVC посредником является Controller.
 
