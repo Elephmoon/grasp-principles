@@ -7,7 +7,7 @@
 4. [Creator](#creator)
 5. [Controller](#controller)
 6. [Polymorphism](#polymorphism)
-7. Pure fabrication
+7. [Pure fabrication](#pure-fabrication)
 8. [Indirection](#indirection)
 9. Protected variations
 
@@ -60,4 +60,10 @@
 Снижает зацепление, улучшает переиспользование.
 #### Пример
 Медиатор, в MVC посредником является Controller.
+
+### <a name="pure-fabrication"></a> Pure fabrication [^](#list)
+#### Проблема 
+Введине абстракции, которая не имеет отношения к предметной области(запросы к БД, веб-сокеты, очереди и т.д.).
+#### Пример
+Socket, Promise, EventEmitter.
 
