@@ -9,7 +9,7 @@
 6. [Polymorphism](#polymorphism)
 7. [Pure fabrication](#pure-fabrication)
 8. [Indirection](#indirection)
-9. Protected variations
+9. [Protected variations](#protected-variations)
 
 ### <a name="information-expert"></a> Information expert [^](#list)
 #### Проблема 
@@ -67,3 +67,9 @@
 #### Пример
 Socket, Promise, EventEmitter.
 
+### <a name="protected-variations"></a> Protected variations [^](#list)
+#### Проблема 
+Защитить абстракции от изменений
+#### Решение
+Определение внешних контрактов взаимодействия между модулями.  
+Определение версий контрактов при помощи [semver](https://semver.org/).  
