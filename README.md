@@ -1,4 +1,4 @@
-# General responsibility software patterns (распределение ответсвенности)
+# General responsibility software patterns (распределение ответственности)
 
 ## <a name="list"></a> Список принципов
 1. Low coupling
