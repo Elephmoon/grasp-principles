@@ -1,8 +1,8 @@
 # General responsibility software patterns (распределение ответственности)
 
 ## <a name="list"></a> Список принципов
-1. Low coupling
-2. High cohesion
+1. [Low coupling](#coupling-coheison)
+2. [High cohesion](#coupling-coheison)
 3. [Information expert](#information-expert)
 4. [Creator](#creator)
 5. Controller
@@ -28,3 +28,13 @@
 Снижает зацепление
 #### Пример
 Конструктор, фабрика
+
+### <a name="coupling-coheison"></a> Low coupling, High coheison [^](#list)
+#### High coheison 
+Связность внутри модуля/компонента/класса, должна быть сильной.  
+Внутри модуля функции могут работать со структурами данных, полями, функциями напрямую.
+#### Low coupling
+Зацепление между компонентами, должно быть слабым.  
+Модули могут общаться друг с другом только через экспортируемые интерфейсы.  
+Модули не должны обращаться к структурам данных или полям другого модуля напрямую.
+
