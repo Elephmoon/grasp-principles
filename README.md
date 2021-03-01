@@ -1,8 +1,8 @@
 # General responsibility software patterns (распределение ответственности)
-
 ## <a name="list"></a> Список принципов
 1. [Low coupling](#coupling-coheison)
-2. [High cohesion](#coupling-coheison)
+
+2. [High cohesion](#coupling-cohesion)
 3. [Information expert](#information-expert)
 4. [Creator](#creator)
 5. [Controller](#controller)
@@ -13,7 +13,8 @@
 
 ### <a name="information-expert"></a> Information expert [^](#list)
 #### Проблема 
-Как распределить ответственность между классами?
+Как распределить ответственность меж
+ду классами?
 #### Решение
 Назначить ответсвенность классу, который имеет всю необходимую информацию
 #### Зачем
@@ -29,8 +30,8 @@
 #### Пример
 Конструктор, фабрика
 
-### <a name="coupling-coheison"></a> Low coupling, High coheison [^](#list)
-#### High coheison 
+### <a name="coupling-cohesion"></a> Low coupling, High coheison [^](#list)
+#### High cohesion 
 Связность внутри модуля/компонента/класса, должна быть сильной.  
 Внутри модуля функции могут работать со структурами данных, полями, функциями напрямую.
 #### Low coupling
